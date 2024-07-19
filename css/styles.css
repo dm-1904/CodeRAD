@@ -337,11 +337,20 @@ footer .footer-col {
   height: 50px;
 }
 
-.fa {
-  padding-right: var(--size-14);
+.contact-info li{
+ color: var(--white);
+ margin-bottom: var(--size-10);
 }
 
-.social-icons {
-  display: flex;
-  flex-direction: row;
+.fa {
+  width: var(--size-30);
+}
+
+.social-icons ul li {
+  display: inline-block;
+  margin-right: var(--size-16);
+}
+
+.social-icons ul li a {
+  font-size: var(--size-16);
 }
