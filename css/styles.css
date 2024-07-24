@@ -106,9 +106,9 @@
 
 }
 
- /* .why-me {
-   padding-right: var(--size-150);
-} */
+ .why-me {
+   padding: var(--size-150) 0;
+}
 
 .why-me-wrapper {
   display: flex;
@@ -351,6 +351,7 @@ footer {
 
 footer .footer-col {
   justify-self: center;
+  max-width: 250px;
 }
 
 .footer-top h5 {
